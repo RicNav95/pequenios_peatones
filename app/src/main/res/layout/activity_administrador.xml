@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_recompensa"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Pregunta"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apartado"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Apartado"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Tipo"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alternativa 1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Alt_1"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alternativa 2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Alt_2"
+                android:layout_width="1183dp"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alternativa 3"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Alt_3"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alternativa 4"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Alt_4"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correcta"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/correcta"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imagen"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/imagen"
+                android:layout_width="1183dp"
+                android:layout_height="wrap_content"
+                 />
+
+
+            <LinearLayout
+                android:layout_width="958dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/atras"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Atras" />
+
+                <Button
+                    android:id="@+id/adelante"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Adelante" />
+
+                <Button
+                    android:id="@+id/anadir"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Añadir" />
+
+                <Button
+                    android:id="@+id/eliminar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/black"
+                    android:text="eliminar Pregunta" />
+
+                <Button
+                    android:id="@+id/salir"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Salir" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
