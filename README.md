@@ -1,0 +1,1 @@
+This project aims to educate children from an early age through this application. With this app, they will learn about pedestrian road safety from a young age and develop exemplary behavior when walking along avenues.
